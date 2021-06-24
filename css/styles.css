@@ -1,0 +1,99 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    display: flex;
+    background-color: #222222;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+}
+
+main{
+    display: flex;
+    padding: 2em;
+}
+
+.menu-main{
+    display: flex;
+}
+
+header img{
+    margin: 1em;
+}
+
+.menu-main .menu-item{
+    margin: 2em 1em;
+}
+
+.menu-footer .menu-item{
+    margin: 1em;
+}
+
+.podio{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.podio h2{
+    text-align: center;
+    margin: 1em;
+    color: #FC200C;
+    font-weight: bolder;
+}
+
+.pizza-top{
+    display: flex;
+    justify-content: space-around;
+}
+
+.pizza-top h3{
+    margin: 1em;
+}
+
+.pizza-list li{
+    margin: 0.5em;
+}
+
+.podio-img{
+    display: flex;
+    align-items: center;
+}
+
+footer{
+    display: flex;
+    background-color: #222222;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer img{
+    padding: 0 1em;
+}
+
+ul{
+    list-style: none;
+}
+
+.envio{
+    background-image: url('../img/delivery.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+    height: 400px;
+}
+
+.envio h2{
+    color: white;
+    padding: 1em;
+}
+
+.text-red{
+    color: red;
+}
